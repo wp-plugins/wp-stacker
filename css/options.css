@@ -1,0 +1,12 @@
+.wppocket_options #message {
+	margin: 15px 0 0 0;
+	width: 70%;
+}
+
+.wppocket_options .form-table {
+	width: 70%;
+}
+
+.wppocket_options p.description {
+	max-width: 550px;
+}
