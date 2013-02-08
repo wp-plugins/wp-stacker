@@ -1,0 +1,82 @@
+.wppocket #icon-wppocket {
+	background: url(../images/icons/32.png) no-repeat;
+}
+
+.wppocket #message {
+	width: 590px;
+	margin: 25px 0 0 0;
+}
+
+.wppocket p.description {
+	margin: 2px 10px 5px 0;
+}
+
+.wppocket p.description textarea {
+	resize: vertical;
+}
+
+.wppocket .menu-item-settings {
+	display: none;
+}
+
+.wppocket .nav-tabs-nav {
+	display: none;
+}
+
+.wppocket .menu-item-handle {
+	width: 600px;
+}
+
+.wppocket .menu-item-handle .left {
+	float: left;
+	width: 530px;
+}
+
+.wppocket .menu-item-handle .right {
+	float: right;
+	width: 70px;
+	height: 37px;
+}
+
+.wppocket .menu-item-handle .right .item-remove {
+	position: absolute;
+	width: 27px;
+	height: 37px;
+
+	background: url(../images/remove.png) no-repeat;
+	background-position: 10px;
+	
+	font-size: 0;
+}
+
+.wppocket .menu-item-handle .right .item-edit {
+	position: absolute;
+	width: 27px;
+	height: 37px;
+	margin: 0 0 0 30px;
+
+	background: url(../images/arrow.png) no-repeat;
+	background-position: 10px;
+	
+	font-size: 0;
+}
+
+.wppocket .description-thin {
+	width: 290px;
+}
+
+.wppocket .description-thin.description-two-thirds {
+	width: 400px;
+}
+
+.wppocket .description-thin.description-one-thirds {
+	width: 180px;
+}
+
+.wppocket .menu-item-settings {
+	width: 600px;
+}
+
+.wppocket p.short {
+	width: 600px;
+}

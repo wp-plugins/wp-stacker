@@ -1,0 +1,16 @@
+.wppocket .support, .wppocket_options .support {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 220px;
+	margin: 10px;
+	padding: 10px;
+	
+	background: #FEFEDB;
+	border: 1px solid #2D2D2D;
+	
+	text-align: center;
+	font-size: 12px;
+	
+	z-index: 999;
+}
