@@ -1,0 +1,82 @@
+.wpstacker #icon-wpstacker {
+	background: url(../images/icons/32.png) no-repeat;
+}
+
+.wpstacker #message {
+	width: 590px;
+	margin: 25px 0 0 0;
+}
+
+.wpstacker p.description {
+	margin: 2px 10px 5px 0;
+}
+
+.wpstacker p.description textarea {
+	resize: vertical;
+}
+
+.wpstacker .menu-item-settings {
+	display: none;
+}
+
+.wpstacker .nav-tabs-nav {
+	display: none;
+}
+
+.wpstacker .menu-item-handle {
+	width: 600px;
+}
+
+.wpstacker .menu-item-handle .left {
+	float: left;
+	width: 530px;
+}
+
+.wpstacker .menu-item-handle .right {
+	float: right;
+	width: 70px;
+	height: 37px;
+}
+
+.wpstacker .menu-item-handle .right .item-remove {
+	position: absolute;
+	width: 27px;
+	height: 37px;
+
+	background: url(../images/remove.png) no-repeat;
+	background-position: 10px;
+	
+	font-size: 0;
+}
+
+.wpstacker .menu-item-handle .right .item-edit {
+	position: absolute;
+	width: 27px;
+	height: 37px;
+	margin: 0 0 0 30px;
+
+	background: url(../images/arrow.png) no-repeat;
+	background-position: 10px;
+	
+	font-size: 0;
+}
+
+.wpstacker .description-thin {
+	width: 290px;
+}
+
+.wpstacker .description-thin.description-two-thirds {
+	width: 400px;
+}
+
+.wpstacker .description-thin.description-one-thirds {
+	width: 180px;
+}
+
+.wpstacker .menu-item-settings {
+	width: 600px;
+}
+
+.wpstacker p.short {
+	width: 600px;
+}
