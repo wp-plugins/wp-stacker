@@ -80,3 +80,7 @@
 .wpstacker p.short {
 	width: 600px;
 }
+
+.wpstacker .onlyWithTag {
+	display: none;
+}

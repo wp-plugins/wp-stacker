@@ -3,7 +3,7 @@ Contributors: jankarres
 Tags: wp stacker, wordpress, pocket, post, automaticly, wp, links, linklist
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,12 @@ Please report bugs by sending an E-Mail via the form on http://wp-stacker.com/.
 4. Settings
 
 == Changelog ==
+
+= 1.4 =
+* Added possibility to load only links with a certain tag
+* Fixed overwriting comments link in the menu
+* Fixed quotation marks bug in the settings
+* Fixed image bug in textareas in the settings
 
 = 1.3 =
 * Rebrand the plugin from WP Pocket to WP Stacker due to a conflict with Pocket

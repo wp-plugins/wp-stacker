@@ -42,4 +42,9 @@ jQuery(document).ready(function () {
 			}, 300);
 		}
 	});
+	
+	// Change tag field
+	jQuery('.wpstacker input[name="onlyWithTag"]').change(function() {
+		jQuery('.wpstacker .onlyWithTag').toggle();
+	});
 });
