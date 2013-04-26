@@ -3,7 +3,7 @@ Contributors: jankarres
 Tags: wp stacker, wordpress, pocket, post, automaticly, wp, links, linklist
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 1.4
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,9 @@ Please report bugs by sending an E-Mail via the form on http://wp-stacker.com/.
 4. Settings
 
 == Changelog ==
+
+= 1.4.1 =
+* Implement Mcrypt exists check
 
 = 1.4 =
 * Added possibility to load only links with a certain tag
