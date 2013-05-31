@@ -3,7 +3,7 @@ Contributors: jankarres
 Tags: wp stacker, wordpress, pocket, post, automaticly, wp, links, linklist
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,10 @@ Please report bugs by sending an E-Mail via the form on http://wp-stacker.com/.
 4. Settings
 
 == Changelog ==
+
+= 1.4.3 =
+* Fixed database prefix bug
+* Fixed position of the link in the menu
 
 = 1.4.2 =
 * Fixed Pocket auth SSL bug with a special webserver setting
@@ -119,6 +123,6 @@ Nothing here yet :-)
 
 == ToDo ==
 
-Solve all links option in <i>Links to use</i> (possible, if Pocket save the bug in the API)
+Nothing here yet :-)
 
 If you have requests, please tell me via the contact form on http://wp-stacker.com

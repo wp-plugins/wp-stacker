@@ -23,7 +23,7 @@ if(!class_exists('wpstacker')) {
 			$this->wpdb = $wpdb;
 			
 			// Set plugin version
-			$this->version = '1.4.2';
+			$this->version = '1.4.3';
 		
 			// Check WP version
 			add_action('init', array(&$this, 'requires_versions'));
@@ -85,12 +85,12 @@ if(!class_exists('wpstacker')) {
 
 		function activate() {
 			// Remove the old WP Pocket settings and rename the link list table
-			$sql = 'RENAME TABLE wp_wppocket_posted_links TO wp_wpstacker_posted_links;';
+			$sql = 'RENAME TABLE ' . $this->wpdb->prefix . 'wppocket_posted_links TO wp_wpstacker_posted_links;';
 			@$this->wpdb->query($sql);
 			
 			$sql = '
 			DELETE FROM
-				wp_options
+				' . $this->wpdb->prefix . 'options
 			WHERE
 				option_name = "wppocket_version" OR
 				option_name = "wppocket_links_to_use" OR
@@ -176,11 +176,11 @@ if(!class_exists('wpstacker')) {
 			// Check if version under 1.2, if true, remove api-key for consumer-key, remove password, api custom key and reset username
 			if (!version_compare(get_option('wpstacker_version'), '1.2', '>=')) {
 				// Remove api key
-				$sql = 'DELETE FROM `wp_options` WHERE `option_name`="wpstacker_pocket_api_key" OR `option_name`="wpstacker_pocket_password" OR `option_name`="wpstacker_pocket_api_key_custom"';
+				$sql = 'DELETE FROM `' . $this->wpdb->prefix . 'options` WHERE `option_name`="wpstacker_pocket_api_key" OR `option_name`="wpstacker_pocket_password" OR `option_name`="wpstacker_pocket_api_key_custom"';
 				$this->wpdb->query($sql);
 				
 				// Reset username
-				$sql = 'UPDATE `wp_options` SET `option_value` = "" WHERE `option_name`="wpstacker_pocket_username";';
+				$sql = 'UPDATE `' . $this->wpdb->prefix . 'options` SET `option_value` = "" WHERE `option_name`="wpstacker_pocket_username";';
 				$this->wpdb->query($sql);
 			}
 			
@@ -1200,7 +1200,7 @@ if(!class_exists('wpstacker')) {
 		// Function to set the main page
 		function main_link() {
 			// Start the view of the main page
-			add_menu_page('WP Stacker', 'WP Stacker', 5, 'pocket_poster', array($this, 'main_page_view'), plugin_dir_url(__FILE__) . 'images/icons/16.png', 26);
+			add_menu_page('WP Stacker', 'WP Stacker', 5, 'pocket_poster', array($this, 'main_page_view'), plugin_dir_url(__FILE__) . 'images/icons/16.png', 32);
 		}
 		
 		// Main page view
