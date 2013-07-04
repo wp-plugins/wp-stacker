@@ -39,6 +39,8 @@ jQuery(document).ready(function () {
 			
 			setTimeout(function() {
 				$this.parents('li').remove();
+				
+				jQuery('.wpstacker .number-links').html((jQuery('.wpstacker .number-links').html() - 1));
 			}, 300);
 		}
 	});
