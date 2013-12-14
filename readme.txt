@@ -2,8 +2,8 @@
 Contributors: jankarres
 Tags: wp stacker, wordpress, pocket, post, automaticly, wp, links, linklist
 Requires at least: 3.4
-Tested up to: 3.6
-Stable tag: 1.6
+Tested up to: 3.8
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,12 @@ Please report bugs by sending an E-Mail via the form on http://wp-stacker.com/.
 4. Settings
 
 == Changelog ==
+
+
+= 1.7 =
+* Fixed compatibility with WordPress 3.8
+* Changed design elements for WordPress 3.8
+* Reduced PHP notices
 
 = 1.6 =
 * Fixed compatibility with WordPress 3.6

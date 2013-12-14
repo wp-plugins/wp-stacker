@@ -6,8 +6,11 @@
 	margin: 10px;
 	padding: 10px;
 	
-	background: #FEFEDB;
-	border: 1px solid #2D2D2D;
+	background: #FFFFFF;
+	border-left: 4px solid #DD3D36;
+
+	webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
 	
 	text-align: center;
 	font-size: 12px;
